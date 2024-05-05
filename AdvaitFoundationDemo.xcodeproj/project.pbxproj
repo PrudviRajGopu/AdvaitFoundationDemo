@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEA84D252BE7465E0012524B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA84D242BE7465E0012524B /* NetworkManager.swift */; };
+		FEA84D282BE74CCF0012524B /* ImageGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA84D272BE74CCF0012524B /* ImageGridViewModel.swift */; };
+		FEA84D2B2BE74E1E0012524B /* ClinetUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA84D2A2BE74E1E0012524B /* ClinetUrl.swift */; };
+		FEA84D2D2BE7682A0012524B /* ImageCacheManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA84D2C2BE7682A0012524B /* ImageCacheManger.swift */; };
+		FEA84D2F2BE7A5810012524B /* ImageDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA84D2E2BE7A5810012524B /* ImageDetailsVC.swift */; };
+		FEA84D342BE7E21A0012524B /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA84D332BE7E21A0012524B /* Loader.swift */; };
+		FEA84D352BE7E21A0012524B /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA84D332BE7E21A0012524B /* Loader.swift */; };
+		FEA84D362BE7E21A0012524B /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA84D332BE7E21A0012524B /* Loader.swift */; };
 		FEBE9E832BE6910A00ADB506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9E822BE6910A00ADB506 /* AppDelegate.swift */; };
 		FEBE9E852BE6910A00ADB506 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9E842BE6910A00ADB506 /* SceneDelegate.swift */; };
 		FEBE9E872BE6910A00ADB506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9E862BE6910A00ADB506 /* ViewController.swift */; };
@@ -17,6 +25,20 @@
 		FEBE9E9D2BE6910C00ADB506 /* AdvaitFoundationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9E9C2BE6910C00ADB506 /* AdvaitFoundationDemoTests.swift */; };
 		FEBE9EA72BE6910D00ADB506 /* AdvaitFoundationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EA62BE6910D00ADB506 /* AdvaitFoundationDemoUITests.swift */; };
 		FEBE9EA92BE6910D00ADB506 /* AdvaitFoundationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EA82BE6910D00ADB506 /* AdvaitFoundationDemoUITestsLaunchTests.swift */; };
+		FEBE9EB62BE6917500ADB506 /* ImageGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EB52BE6917500ADB506 /* ImageGridViewController.swift */; };
+		FEBE9EBC2BE696C100ADB506 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EBA2BE696C100ADB506 /* SliderCell.swift */; };
+		FEBE9EBD2BE696C100ADB506 /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBE9EBB2BE696C100ADB506 /* SliderCell.xib */; };
+		FEBE9EBE2BE696C100ADB506 /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBE9EBB2BE696C100ADB506 /* SliderCell.xib */; };
+		FEBE9EBF2BE696C100ADB506 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EBA2BE696C100ADB506 /* SliderCell.swift */; };
+		FEBE9EC02BE696C100ADB506 /* SliderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBE9EBB2BE696C100ADB506 /* SliderCell.xib */; };
+		FEBE9EC12BE696C100ADB506 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EBA2BE696C100ADB506 /* SliderCell.swift */; };
+		FEBE9EC42BE696DA00ADB506 /* ImageGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EC22BE696DA00ADB506 /* ImageGridCell.swift */; };
+		FEBE9EC52BE696DA00ADB506 /* ImageGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBE9EC32BE696DA00ADB506 /* ImageGridCell.xib */; };
+		FEBE9EC62BE696DA00ADB506 /* ImageGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBE9EC32BE696DA00ADB506 /* ImageGridCell.xib */; };
+		FEBE9EC72BE696DA00ADB506 /* ImageGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EC22BE696DA00ADB506 /* ImageGridCell.swift */; };
+		FEBE9EC82BE696DA00ADB506 /* ImageGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBE9EC32BE696DA00ADB506 /* ImageGridCell.xib */; };
+		FEBE9EC92BE696DA00ADB506 /* ImageGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9EC22BE696DA00ADB506 /* ImageGridCell.swift */; };
+		FEBE9ECC2BE69DDA00ADB506 /* ImageGridReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBE9ECB2BE69DDA00ADB506 /* ImageGridReponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +59,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FEA84D242BE7465E0012524B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FEA84D272BE74CCF0012524B /* ImageGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridViewModel.swift; sourceTree = "<group>"; };
+		FEA84D2A2BE74E1E0012524B /* ClinetUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinetUrl.swift; sourceTree = "<group>"; };
+		FEA84D2C2BE7682A0012524B /* ImageCacheManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManger.swift; sourceTree = "<group>"; };
+		FEA84D2E2BE7A5810012524B /* ImageDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsVC.swift; sourceTree = "<group>"; };
+		FEA84D332BE7E21A0012524B /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		FEBE9E7F2BE6910A00ADB506 /* AdvaitFoundationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvaitFoundationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBE9E822BE6910A00ADB506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBE9E842BE6910A00ADB506 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +79,12 @@
 		FEBE9EA22BE6910D00ADB506 /* AdvaitFoundationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvaitFoundationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBE9EA62BE6910D00ADB506 /* AdvaitFoundationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvaitFoundationDemoUITests.swift; sourceTree = "<group>"; };
 		FEBE9EA82BE6910D00ADB506 /* AdvaitFoundationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvaitFoundationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FEBE9EB52BE6917500ADB506 /* ImageGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridViewController.swift; sourceTree = "<group>"; };
+		FEBE9EBA2BE696C100ADB506 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		FEBE9EBB2BE696C100ADB506 /* SliderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderCell.xib; sourceTree = "<group>"; };
+		FEBE9EC22BE696DA00ADB506 /* ImageGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridCell.swift; sourceTree = "<group>"; };
+		FEBE9EC32BE696DA00ADB506 /* ImageGridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageGridCell.xib; sourceTree = "<group>"; };
+		FEBE9ECB2BE69DDA00ADB506 /* ImageGridReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridReponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +112,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FEA84D232BE7463F0012524B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				FEA84D242BE7465E0012524B /* NetworkManager.swift */,
+			);
+			name = NetworkManager;
+			sourceTree = "<group>";
+		};
+		FEA84D262BE74CAF0012524B /* ViewModals */ = {
+			isa = PBXGroup;
+			children = (
+				FEA84D272BE74CCF0012524B /* ImageGridViewModel.swift */,
+			);
+			name = ViewModals;
+			sourceTree = "<group>";
+		};
+		FEA84D292BE74DF90012524B /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				FEA84D2A2BE74E1E0012524B /* ClinetUrl.swift */,
+				FEA84D2C2BE7682A0012524B /* ImageCacheManger.swift */,
+				FEA84D332BE7E21A0012524B /* Loader.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		FEA84D322BE7A6B70012524B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEBE9EB52BE6917500ADB506 /* ImageGridViewController.swift */,
+				FEA84D2E2BE7A5810012524B /* ImageDetailsVC.swift */,
+				FEBE9E862BE6910A00ADB506 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		FEBE9E762BE6910A00ADB506 = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +173,12 @@
 			children = (
 				FEBE9E822BE6910A00ADB506 /* AppDelegate.swift */,
 				FEBE9E842BE6910A00ADB506 /* SceneDelegate.swift */,
-				FEBE9E862BE6910A00ADB506 /* ViewController.swift */,
+				FEA84D322BE7A6B70012524B /* ViewControllers */,
+				FEA84D292BE74DF90012524B /* HelperClass */,
+				FEA84D262BE74CAF0012524B /* ViewModals */,
+				FEA84D232BE7463F0012524B /* NetworkManager */,
+				FEBE9ECA2BE69DA600ADB506 /* Models */,
+				FEBE9EB92BE6969400ADB506 /* Cells */,
 				FEBE9E882BE6910B00ADB506 /* Main.storyboard */,
 				FEBE9E8E2BE6910C00ADB506 /* Assets.xcassets */,
 				FEBE9E902BE6910C00ADB506 /* LaunchScreen.storyboard */,
@@ -128,6 +203,25 @@
 				FEBE9EA82BE6910D00ADB506 /* AdvaitFoundationDemoUITestsLaunchTests.swift */,
 			);
 			path = AdvaitFoundationDemoUITests;
+			sourceTree = "<group>";
+		};
+		FEBE9EB92BE6969400ADB506 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEBE9EBA2BE696C100ADB506 /* SliderCell.swift */,
+				FEBE9EBB2BE696C100ADB506 /* SliderCell.xib */,
+				FEBE9EC22BE696DA00ADB506 /* ImageGridCell.swift */,
+				FEBE9EC32BE696DA00ADB506 /* ImageGridCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FEBE9ECA2BE69DA600ADB506 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEBE9ECB2BE69DDA00ADB506 /* ImageGridReponse.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +330,9 @@
 			files = (
 				FEBE9E8F2BE6910C00ADB506 /* Assets.xcassets in Resources */,
 				FEBE9E922BE6910C00ADB506 /* Base in Resources */,
+				FEBE9EBD2BE696C100ADB506 /* SliderCell.xib in Resources */,
 				FEBE9E8A2BE6910B00ADB506 /* Base in Resources */,
+				FEBE9EC52BE696DA00ADB506 /* ImageGridCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +340,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBE9EBE2BE696C100ADB506 /* SliderCell.xib in Resources */,
+				FEBE9EC62BE696DA00ADB506 /* ImageGridCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +349,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBE9EC02BE696C100ADB506 /* SliderCell.xib in Resources */,
+				FEBE9EC82BE696DA00ADB506 /* ImageGridCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +361,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA84D252BE7465E0012524B /* NetworkManager.swift in Sources */,
+				FEBE9EB62BE6917500ADB506 /* ImageGridViewController.swift in Sources */,
+				FEBE9EC42BE696DA00ADB506 /* ImageGridCell.swift in Sources */,
+				FEA84D2B2BE74E1E0012524B /* ClinetUrl.swift in Sources */,
 				FEBE9E872BE6910A00ADB506 /* ViewController.swift in Sources */,
+				FEA84D2F2BE7A5810012524B /* ImageDetailsVC.swift in Sources */,
+				FEA84D282BE74CCF0012524B /* ImageGridViewModel.swift in Sources */,
+				FEA84D2D2BE7682A0012524B /* ImageCacheManger.swift in Sources */,
 				FEBE9E832BE6910A00ADB506 /* AppDelegate.swift in Sources */,
 				FEBE9E8D2BE6910B00ADB506 /* AdvaitFoundationDemo.xcdatamodeld in Sources */,
+				FEBE9EBC2BE696C100ADB506 /* SliderCell.swift in Sources */,
+				FEBE9ECC2BE69DDA00ADB506 /* ImageGridReponse.swift in Sources */,
+				FEA84D342BE7E21A0012524B /* Loader.swift in Sources */,
 				FEBE9E852BE6910A00ADB506 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +382,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBE9EBF2BE696C100ADB506 /* SliderCell.swift in Sources */,
 				FEBE9E9D2BE6910C00ADB506 /* AdvaitFoundationDemoTests.swift in Sources */,
+				FEA84D352BE7E21A0012524B /* Loader.swift in Sources */,
+				FEBE9EC72BE696DA00ADB506 /* ImageGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +394,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEBE9EA72BE6910D00ADB506 /* AdvaitFoundationDemoUITests.swift in Sources */,
+				FEBE9EC12BE696C100ADB506 /* SliderCell.swift in Sources */,
+				FEBE9EC92BE696DA00ADB506 /* ImageGridCell.swift in Sources */,
 				FEBE9EA92BE6910D00ADB506 /* AdvaitFoundationDemoUITestsLaunchTests.swift in Sources */,
+				FEA84D362BE7E21A0012524B /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
